@@ -1,4 +1,19 @@
-*This project has been created as part of the 42 curriculum by dyanar*
+
+<h1 align="center">
+  42 Course's Libft 
+</h1>
+
+<p align="center">
+<i>This project has been created as part of the 42 curriculum by dyanar</i></br>
+  Implementation of specfic functions from standard c library (libc) and notes of my researches during the project to help other students to find their way.
+</p>
+
+<p align="center">
+  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/yanard18/42libft?style=flat-square" />
+  <img alt="GitHub forks" src="https://img.shields.io/github/forks/yanard18/42libft?style=flat-square" />
+  <img alt="GitHub stars" src="https://img.shields.io/github/stars/yanard18/42libft?style=flat-square" />
+  <img alt="GitHub license" src="https://img.shields.io/github/license/yanard18/42libft?style=flat-square" />
+</p>
 
 ## Description
 
@@ -50,7 +65,7 @@ README.md page shows instructions, resources and information that I evaluate as 
 - ft_lstiter
 - ft_lstmap
 
-## Instructions
+## Usage
 `make` to compile mendatory functions.
 
 `make run` to compile and execute (only work if one main() function exist)
@@ -89,7 +104,7 @@ with `x /16xb $1` tool we dump the memory of `&x`, see that `ft_memset` operatio
 
 What we understand by this statement; `int` variables stored in memory in reverse order. This fit our situation since memset accepts an `int` as its second variable, and we provided exactly 4 bytes value (`0xA1B2C3D4`).
 
-![image](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/32bit-Endianess.svg/1280px-32bit-Endianess.svg.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/32bit-Endianess.svg/1280px-32bit-Endianess.svg.png" style="background-color: white;" />
 
 ## Libraries
 
@@ -288,10 +303,10 @@ Hit on [04] because "Hello World!" attempted to write 13 bytes.
 3. Structural Testing
 
 
-## Further Study
+## Furhter Study
 
 ### LDD
 
-> some versions of ldd may attempt to obtain the dependency information by attempting to directly  execute  the program,  which may lead to the execution of whatever code is defined in the program's ELF interpreter, and perhaps to execution of the program itself.
+Quoted from `man ldd`:
+some versions of ldd may attempt to obtain the dependency information by attempting to directly  execute  the program,  which may lead to the execution of whatever code is defined in the program's ELF interpreter, and perhaps to execution of the program itself.
 
-Can be interesting.
